@@ -1,0 +1,48 @@
+﻿{
+ "$schema": "http://json.schemastore.org/template",
+ "author": "Team_3",
+ "classifications": [],
+ "description": "",
+ "name": "Template",
+ "defaultName": "Template",
+ "identity": "MyTemplate.Template.CSharp",
+ "groupIdentity": "MyTemplate.Template",
+ "tags": {
+   "language": "C#",
+   "type": "project",
+   "vsmac-category": "other/net/general"
+ },
+ "shortName": "Template",
+ "sourceName": "Template",
+ "guids": [
+   "{3C6792AE-F92E-4B2C-9052-3324CD416D73}",
+   "{03A5B910-4F86-48CC-91B5-D47CFC1C3EBA}",
+   "{16321027-D373-4A9F-8343-EBD498ED96B9}",
+   "{5A09C608-82DC-4180-8F2A-E549FC922B0A}"
+ ],
+ "sources": [
+   {
+     "modifiers": [
+       {
+         "exclude": [
+           ".vs/**/*"
+         ]
+       }
+     ]
+   }
+ ],
+ "primaryOutputs": [
+   {
+     "path": "Template/Template.csproj"
+   },
+   {
+     "path": "Template.Android/Template.Android.csproj"
+   },
+   {
+     "path": "Template.iOS/Template.iOS.csproj"
+   },
+   {
+     "path": "Template.Tests/Template.Tests.csproj"
+   }
+ ]
+}
